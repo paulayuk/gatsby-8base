@@ -13,6 +13,15 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-source-graphql`,
+      options: {
+        fieldName: `postList`,
+        url: `https://api.8base.com/cjyg9ed20000201mr6n1vcqcb`,
+        typeName: `8base`,
+        refetchInterval: 10,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
