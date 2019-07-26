@@ -1,0 +1,27 @@
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #036ffc;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.main {
+    margin: 0 auto;
+    width: 600px;
+    padding: 15px;
+}
+
+.created {
+  font-size: 12px;
+  margin: 5px 0px 0px 5px;
+  font-style: italic;
+  display: block;
+}
+
+.links {
+  text-decoration: none;
+}

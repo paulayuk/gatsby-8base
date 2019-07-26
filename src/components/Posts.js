@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Query } from 'react-apollo'
 import { POSTS_QUERY } from "../queries/index";
 import { Link } from "gatsby";
+import './posts.css';
 
 export default class Posts extends Component {
 
@@ -14,12 +15,14 @@ export default class Posts extends Component {
           const posts = data.postsList.items
           return (
                 <div>
+                  <div className="header">8thBlog</div>
                   {posts.map((post, index) => {
                       return (
-                        <div key={index} className="card">
+                        <div key={index} className="main">
                               <div className="card-body">
                                 <h2>
-                                  <Link to={`/${post.id}`}>{post.title}</Link>
+                                  <Link to={`/${post.id}`} className="links">{post.title}</Link>
+                                  <span className="created">Created At: {post.createdAt}</span>
                                 </h2>
                                 <p className="card-text">{post.body}</p>
                               </div>

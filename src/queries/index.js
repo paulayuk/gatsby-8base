@@ -8,7 +8,8 @@ const POSTS_QUERY = gql`
           items{
             id,
             title,
-            body
+            body,
+            createdAt
           }
        }
   }
@@ -19,7 +20,8 @@ const SINGLE_POST_QUERY = gql`
       post(id: $id){
         id,
         title,
-        body
+        body,
+        createdAt
       }
   }
 `;

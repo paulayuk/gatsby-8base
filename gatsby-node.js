@@ -1,8 +1,8 @@
 // const path = require(`path`);
 
 
+
 // const POSTS_QUERY = `
-//   query {
 //     postsList{
 //           items{
 //             id,
@@ -10,7 +10,6 @@
 //             body
 //           }
 //        }
-//   }
 // `;
 
 // const makeRequest = (graphql, request) => new Promise((resolve, reject) => {
