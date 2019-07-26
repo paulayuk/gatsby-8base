@@ -13,15 +13,18 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    {
-      resolve: `gatsby-source-graphql`,
-      options: {
-        fieldName: `postList`,
-        url: `https://api.8base.com/cjyg9ed20000201mr6n1vcqcb`,
-        typeName: `8base`,
-        refetchInterval: 10,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-graphql`,
+    //   options: {
+    //     fieldName: `postList`,
+    //     url: `https://api.8base.com/cjyg9ed20000201mr6n1vcqcb`,
+    //     typeName: `8base`,
+    //     headers: {
+    //       Authorization: `bearer 97144998-e3ec-44f9-ae25-68a898f76f73`,
+    //     },
+    //     refetchInterval: 10,
+    //   },
+    // },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
