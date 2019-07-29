@@ -7,6 +7,7 @@
   "dependencies": {
     "apollo-boost": "^0.4.3",
     "apollo-link-context": "^1.0.18",
+    "apollo-server": "^2.7.2",
     "crypto": "^1.0.1",
     "dateformat": "^3.0.3",
     "gatsby": "^2.13.36",

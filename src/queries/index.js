@@ -1,6 +1,4 @@
-import React from 'react';
 import gql from 'graphql-tag';
-import { graphql } from 'react-apollo';
 
 const POSTS_QUERY = gql`
   query {
