@@ -13,16 +13,6 @@ const POSTS_QUERY = gql`
   }
 `;
 
-const SINGLE_POST_QUERY = gql`
-  query PostByID($id: ID){
-      post(id: $id){
-        id,
-        title,
-        body,
-        createdAt
-      }
-  }
-`;
 
- export { POSTS_QUERY, SINGLE_POST_QUERY }
+ export { POSTS_QUERY }
 
